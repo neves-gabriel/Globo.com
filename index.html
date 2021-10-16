@@ -3,165 +3,180 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <title>Globo.com</title>
+    <meta name="description" content="Simplified version of Globo.com utilizing CSS and HTML">
+    <meta name="keywords" content="web design, web development, css, html, news, g1, globo" />
+    <meta name="author" content="Gabriel Neves">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main>
-    <div class="topo">
-      <div class="logoglobocom">
-          <img src="img/logo_desktop.png" />
-      </div>
-      <div class="caixalinks">
-        <div class="g1">g1</div>
-        <div class="ge">ge</div>
-        <div class="gshow">gshow</div>
-        <div class="tech">tech</div>
-        <div class="videos">vídeos</div>
+    <div class="header">
+      <a href="">
+        <img src="assets/logo.png" alt="logo">
+      </a>
+    </div>
+    <div class="navbar">
+      <div class="menu">
+        <a href="">
+          <span class="menu-text red">g1</span>
+        </a>
+        <a href="">
+          <span class="menu-text blue">o globo</span>
+        </a>
+        <a href="">
+          <span class="menu-text green">valor</span>
+        </a>
+        <a href="">
+          <span class="menu-text light-green">ge</span>
+        </a>
+        <a href="">
+          <span class="menu-text orange">cartola</span>
+        </a>
+        <a href="">
+          <span class="menu-text bright-red">globoplay</span>
+        </a>
+        <a href="">
+          <span class="menu-text pink">dropz</span>
+        </a>
+        <a href="">
+          <span class="menu-text bright-orange">gshow</span>
+        </a>
+        <a href="">
+          <span class="menu-text gray">quem</span>
+        </a>
+        <a href="">
+          <span class="menu-text purple">receitas</span>
+        </a>
       </div>
     </div>
-    <div class="noticias">
-      <div class="caixavermelha">
-        <div class="primeiralinha">
-          <div class="materiaprincipal">
-              Ao STF, Ministério da Justiça nega produzir dossiê contra cidadão
-          </div>
-          <div class="materiasecundaria">
-                Sem Aras, autoridades mudam as regras de acordo de leniência
-          </div>
+    <div class="content">
+      <div class="g1 news-column">
+        <a href="">
+          <h1 class="red">Vacinados entrarão nos EUA sem quarentena a partir de 8 de novembro</h1>
+        </a>
+        <a href="">
+          <h2 class="secondary-headline">Ministros ‘lavam as mãos’ sobre Bolsonaro não se vacinar, relata blog</h2>
+        </a>
+        <a href="">
+          <h2 class="secondary-headline">Bandeiras em frente ao Congresso lembram 600 mil brasileiros mortos</h2>
+        </a>
+        <div class="spacer row"></div>
+        <div class="news-row">
+          <a href="">
+            <div class="news-container">
+              <img src="assets/alem-do-presidente.jpeg" alt="além do presidente">
+              <h1 class="red">Além do presidente</h1>
+              <h2>CPI deve pedir indiciamento de filhos de Bolsonaro</h2>
+              <p>A evangélicos, Bolsonaro diz ‘chorar sozinho em casa’</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="news-container">
+              <img src="assets/crimes-na-fronteira.jpeg" alt="crimes na fronteira">
+              <h1 class="red">Crimes na fronteira</h1>
+              <h2>Triângulo amoroso vira chave em linha de investigação</h2>
+              <p>1ª de 7 mortes entre Brasil e Paraguai faz 1 semana</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="news-container">
+              <img src="assets/reino-unido.jpeg" alt="reino unido">
+              <h1 class="red">Reino Unido</h1>
+              <h2>Parlamentar inglês é esfaqueado e morto em igreja</h2>
+              <p>Homem de 25 anos foi preso no local, diz polícia</p>
+            </div>
+          </a>
         </div>
-        <div class="segundalinha">
-          <div class="caixanoticiavermelha">
-            <div class="containerimagem1">
-                <img src="img/drauzio.jpg" />
+        <div class="spacer row"></div>
+        <div class="news-row">
+          <a href="">
+            <div class="news-container">
+              <h1 class="red">Sabatina de Mendonça</h1>
+              <h2>PGR é consultada sobre investigação contra Alcolumbre</h2>
+              <p>Aliados dizem que situação de Alcolumbre ‘está feia’</p>
             </div>
-            <div class="legendaimgvermelha">
-              ’Um acúmulo de erros levou a essa tragédia’
+          </a>
+          <a href="">
+            <div class="news-container">
+              <h1 class="red">Negócio de R$ 5,2 bi</h1>
+              <h2>Pão de Açúcar vende 71 pontos do Extra para o Assaí</h2>
+              <p>Lembre fusões e aquisições bilionárias recentes no país</p>
             </div>
-            <div class="sublegendaimgvermelha">
-              Juntos há 42 anos, casal morre em Brasília
-              </div>
-          </div>
-          <div class="caixanoticiavermelha">
-            <div class="containerimagem1">
-                <img src="img/libano.jpg" />
+          </a>
+          <a href="">
+            <div class="news-container">
+              <h1 class="red">Elo com caminhoneiros</h1>
+              <h2>Podcast: ministro liga empresários a atos de 7/9; ouça</h2>
+              <p>Neto de Jango critica veto de Bolsonaro a tributo</p>
             </div>
-            <div class="legendaimgvermelha">
-              Líbano detém pelo menos 16 por explosões
-            </div>
-            <div class="sublegendaimgvermelha">
-              Brasileira mostra casa destruída e cita ’sorte’
-            </div>
-          </div>
-          <div class="caixanoticiavermelha">
-            <div class="containerimagem1">
-                <img src="img/parto.jpg" />
-            </div>
-            <div class="legendaimgvermelha">
-              Líbano: mãe deu à luz em choque e sem anestesia
-            </div>
-            <div class="sublegendaimgvermelha">
-              Ferido é achado no mar após 30 horas
-            </div>
-          </div>
-        </div>
-        <div class="terceiralinha">
-          <div class="caixanoticiavermelha">
-            <div class="legendaimgvermelha">
-              Bolsonaro libera R$ 2 bi para possível vacina
-            </div>
-            <div class="sublegendaimgvermelha">
-              Usar ozonoterapia pode gerar punição
-            </div>
-          </div>
-          <div class="caixanoticiavermelha">
-            <div class="legendaimgvermelha">
-              Justiça príbe a volta das aulas presenciais no RJ
-            </div>
-            <div class="sublegendaimgvermelha">
-              Covid: mortes chegam a 97.692 no Brasil
-            </div>
-          </div>
-          <div class="caixanoticiavermelha">
-            <div class="legendaimgvermelha">
-              SP: secretário é preso; R$ 200 mil são apreendidos
-            </div>
-            <div class="sublegendaimgvermelha">
-              Doria: ’Fatos não têm elo com atual gestão’
-            </div>
-          </div>
+          </a>
         </div>
       </div>
-      <div class="caixaverde">
-        <div class="caixanoticiaverde">
-          <div class="containerimagem2">
-              <img src="img/brasileirao.jpg" />
+      <div class="spacer column"></div>
+      <div class="ge news-column">
+        <a href="">
+          <div class="news-container">
+            <img src="assets/espiao-estatistico.jpeg" alt="espião estatístico">
+            <h1 class="light-green">Espião estatístico</h1>
+            <h2>Classificação do returno tem Palmeiras em último; veja as posições</h2>
+            <p>Crespo almoça com diretoria e deve se despedir no CT</p>
           </div>
-          <div class="legendaimgverde">
-            Guia do Brasileirão avalia força de cada time; veja o ranking
+        </a>
+        <a href="">
+          <div class="news-container">
+            <img src="assets/greve-segue-na-raposa.jpeg" alt="greve segue na raposa">
+            <h1 class="light-green">Greve segue na Raposa</h1>
+            <h2>Cruzeiro não viabiliza recurso para quitar atrasados</h2>
           </div>
-          <div class="sublegendaimgverde">
-            Tabela: Série A volta no sábado
+        </a>
+        <a href="">
+          <div class="news-container">
+            <img src="assets/campeonato-frances.jpeg" alt="campeonato francês">
+            <h1 class="light-green">Campeonato francês</h1>
+            <h2>Desfalcado, PSG recebe o Angers, 4º colocado</h2>
           </div>
-        </div>
-        <div class="caixanoticiaverde">
-          <div class="containerimagem2">
-              <img src="img/cavani.jpg" />
-          </div>
-          <div class="legendaimgverde">
-            Cavani avalia futuro e cogita jogar no Brasil
-          </div>
-        </div>
-        <div class="caixanoticiaverde">
-          <div class="legendaimgverde">
-            Globo vai à Justiça para impedir Turner de transmitir jogos de
-            clubes com os quais não tem contrato
-          </div>
-          <div class="sublegendaimgverde">
-            Cobrado, Fla calcula R$ 52,02 de direitos para cada jogador
-          </div>
-        </div>
+        </a>
       </div>
-      <div class="caixalaranja">
-          <div class="caixanoticialaranja">
-              <div class="containerimagem2">
-                  <img src="img/totalmente.jpg" />
-              </div>
-              <div class="legendaimglaranja">
-                ’Totalmente’: Jonatas flagra beijo e dá recado para Arthur
-              </div>
-              <div class="sublegendaimglaranja">
-                Eliza termina com Arthur
-              </div>
-              <div class="sublegendaimglaranja">
-                Vida de Eliza dá guinada
-                </div>
-            </div>
-            <div class="caixanoticialaranja">
-                <div class="legendaimglaranja">
-                  Tereza manda matar Antenor no hospital
-                </div>
-                <div class="sublegendaimglaranja">
-                  ’Fina’: Ferdinand desmascarado
-                </div>
-                <div class="sublegendaimglaranja">
-                  Ator de ’Fina’: revela vasectomia
-                  </div>
-              </div>
-              <div class="caixanoticialaranja">
-                  <div class="containerimagem2">
-                      <img src="img/bruno.jpg" />
-                  </div>
-                  <div class="legendaimglaranja">
-                    Filho de Bruno tem hit com 140 milhões de visualizações
-                </div>
+      <div class="spacer column"></div>
+      <div class="gshow news-column">
+        <a href="">
+          <div class="news-container">
+            <img src="assets/ferias-e-jh.jpeg" alt="férias e JH">
+            <h1 class="bright-orange">Férias e JH</h1>
+            <h2>César Tralli se emociona na despedida do SP1</h2>
+          </div>
+        </a>
+        <a href="">
+          <div class="news-container">
+            <img src="assets/verdades-secretas-2.jpeg" alt="verdades secretas 2">
+            <h1 class="bright-orange">Verdades Secretas 2</h1>
+            <h2>Angel cruza a passarela poderosa; reveja desfiles</h2>
+            <p>Blanche terá dois relacionamentos</p>
+            <p>Gabriel viverá sadomasoquista</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="news-container">
+            <img src="assets/nos-tempos-do-imperador.jpeg" alt="nos tempos do imperador">
+            <h1 class="bright-orange">Nos Tempos do Imperador</h1>
+            <h2>Lota vai cair em golpe</h2>
+            <p>Teresa toma decisão radical</p>
+          </div>
+        </a>
       </div>
     </div>
-  </main>
   </body>
 </html>
