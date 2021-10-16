@@ -4,7 +4,7 @@
  
 ### Realizado por Gabriel Neves no Curso de Desenvolvimento Web Full-Stack da Driven Education
 
-### Site disponivel em: https://neves-gabriel.github.io/Projeto-01---Globo.com/
+### Site disponivel em: https://neves-gabriel.github.io/Globo.com/
 
 #### Preview do projeto:
 ![Preview do projeto](assets/preview2.png)
