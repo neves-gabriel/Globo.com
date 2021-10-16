@@ -1,4 +1,4 @@
-# Projeto - Globo.com
+# Globo.com
 
 ### Projeto: aplicar o layout de uma versão simplificada da home da Globo.com, utilizando HTML e CSS.
  
