@@ -7,4 +7,4 @@
 ### Site disponivel em: https://neves-gabriel.github.io/Projeto-01---Globo.com/
 
 #### Preview do projeto:
-![Preview do projeto](img/preview.png)
+![Preview do projeto](assets/preview.png)
